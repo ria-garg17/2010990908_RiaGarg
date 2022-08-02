@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        function Distribution(){
+            let balls = document.getElementById("i1").value;
+            let teamMembers = document.getElementById("i2").value;
+
+            let availableBalls = Math.floor(balls/teamMembers);
+            let remainingBalls = balls%teamMembers;
+
+            document.getElementById("p1").innerHTML = "Each member gets " + availableBalls + " balls and remaining balls are " + remainingBalls;
+
+        }
+    </script>
+</head>
+<body>
+    <p>Enter the number of balls: </p>
+    <input type="text" name="i1" id="i1">
+    <br>
+
+    <p>Enter the number of team members: </p>
+    <input type="text" name="i2" id="i2">
+
+    <button onclick="Distribution()">Submit</button>
+
+    <p id="p1"></p>
+</body>
+</html>
