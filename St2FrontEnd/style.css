@@ -1,0 +1,42 @@
+.outer-box{
+    height: 70vh;
+    width: 80vw;
+    background-color:rgb(255 188 176);;
+    margin: 7% 10%;
+}
+
+.text{
+    padding-top: 2%;
+    margin-left: 23vw;
+    margin-right: 23vw;
+    font-size: 1.8rem;
+}
+
+#input-number{
+    margin-left: 20vw;
+    height: 4vh;
+    width: 40vw;
+    border: 2px solid black;
+}
+
+#button1{
+    margin-left: 27vw;
+    margin-top: 1%;
+    height: 8%;
+    width: 30%; 
+    background-color: rgb(255 88 116);
+    border: 2px solid black;
+    border-radius: 4px;
+}  
+
+#button1:hover{
+    color: black;
+    background-color: rgb(255, 152, 224);
+}
+
+#square{
+    margin-left: 50%;
+    margin-top: 5%;
+    transition-duration: 3s;
+    transition-delay: 1s;
+}
