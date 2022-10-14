@@ -1,0 +1,169 @@
+.outer{
+    background-color:rgb(239, 239, 239);
+}
+
+h1{
+    padding-top: 2%;
+}
+
+.main img{
+    padding-top: 2%;
+    height: 65vh;
+    width: 38%;
+    margin-left: -50%;
+    background-size: cover;
+}
+
+.inner-about{
+    background-image: url(https://corporate.myworld.com/wp-content/uploads/2019/06/mw_background_1_desktop3x.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 50%;
+    height: 61vh;
+    /* background-color: aqua; */
+    margin-left: 47%;
+    margin-top: -30.2%;
+}
+
+.content .about{
+    text-align: left;
+    padding-top: 8%;
+    padding-left: 8%;
+    font-family: "Karla", Sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+    font-family: "Karla", Sans-serif;
+}
+
+.content .myworld{
+    color: #ffffff;
+    font-family: "Karla", Sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.3em;
+    text-align: left;
+    padding-left: 8%;
+    width: 100%;
+    font-family: "Karla", Sans-serif;
+}
+
+.paragraph p{ 
+    color: #ffffff;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-left: 8%;
+    text-align: left;
+    padding-top: 5%;
+    font-family: "Karla", Sans-serif;
+}
+
+.learn p{
+    color: #ffffff;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-left: 8%;
+    text-align: left;
+    padding-top: 5%;
+    font-family: "Karla", Sans-serif;
+}
+
+/* Image2 */
+.main1 h1{
+    padding-top: 4%;
+}
+.inner-about1{
+    background-image: url(	https://corporate.myworld.com/wp-content/uploads/2019/06/mw_background_2_desktop3x.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 50%;
+    height: 61vh;
+    /* background-color: aqua; */
+    margin-left: 5%;
+    margin-top: 4%;
+}
+
+.content1 .about1{
+    text-align: left;
+    padding-top: 8%;
+    padding-left: 8%;
+    font-family: "Karla", Sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+    font-family: "Karla", Sans-serif;
+}
+
+.content1 .myworld1{
+    color: #ffffff;
+    font-family: "Karla", Sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.3em;
+    text-align: left;
+    padding-left: 8%;
+    width: 100%;
+    font-family: "Karla", Sans-serif;
+}
+
+.paragraph1 p{ 
+    color: #ffffff;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-left: 8%;
+    text-align: left;
+    padding-top: 5%;
+    font-family: "Karla", Sans-serif;
+}
+
+.learn1 p{
+    color: #ffffff;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-left: 8%;
+    text-align: left;
+    padding-top: 5%;
+    font-family: "Karla", Sans-serif;
+}
+
+.main1 img{
+    padding-top: 2%;
+    height: 65vh;
+    width: 39%;
+    margin-left: 55%;
+    margin-top: -34%;
+    background-size: cover;
+}
+
+.inner-about2 {
+    background-image: url(https://corporate.myworld.com/wp-content/uploads/2019/06/mw_background_3_desktop3x.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 50%;
+    height: 61vh;
+    /* background-color: aqua; */
+    margin-left: 47%;
+    margin-top: -30.2%;
+}
+
+
