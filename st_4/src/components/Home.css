@@ -1,13 +1,388 @@
-/* .text-box h1{
-    margin-top: -2%;
-    margin-left: 35%;
-    color: rgb(66, 19, 168);
-	font-size: 40px;
-	-webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: rgb(6, 71, 91);
+.container-1{
+    background-color: rgb(255, 242, 226);
 }
 
-.text-box h2{
-    margin-top: -40%;
-    margin-left: 35%;
+.text-box{
+    color: #fff;
+    position: absolute;
+    bottom: 8%;
+}
+
+/* .text-box p{
+    font-size: 50px;
+    font-weight: 600;
+    margin-left: 0%;
 } */
+
+.text-box h1{
+    font-size: 11rem;
+    margin-top: 0%;
+    line-height: 9rem;
+    margin-left: 8%;
+    text-align: left;
+    color: transparent;
+    -webkit-text-stroke: 1px #fff;
+    background: url('../images/back.png');
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 20s linear infinite;
+    /* font-family: 'poppins', sans-serif; */
+}
+
+.text-box p{
+    margin-top: -35%;
+    margin-left: -49%;
+    font-size: 60px;
+    margin-bottom: -32px;
+    font-weight: 600;
+    font-family: 'poppins', sans-serif;
+}
+
+@keyframes back{
+    100%{
+        background-position: 2000px 0;
+    }
+}
+
+.container-1 img{
+    width: 120%;
+    margin-left: -9%;
+    height: 647px;
+}
+
+.container-1{
+    overflow-x: hidden;
+}
+
+.about-cafe{
+    text-align: center;
+    padding-top: 3%;
+}
+
+.content{
+    text-align: left;
+    margin-left: 28%;
+    font-family: "Inconsolata", sans-serif;
+}
+
+.content h1{
+    text-align: center;
+}
+
+.content p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 18px!important;
+}
+
+.note{
+    color: #000!important;
+    background-color: #f1f1f1!important;
+    border-left: 6px solid #ccc!important;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    padding: 0.01em 16px;
+}
+
+.note p{
+    font-family: "Inconsolata", sans-serif;
+}
+
+.menu h1{
+    text-align: center;
+    padding-top: 5%;
+}
+
+.card1{
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 210px 210px 80px;
+    grid-template-areas: "image" "text" "stats";
+    font-family: 'roboto';
+    border-radius: 18px;
+    background: white;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+    text-align: center;
+    transition: 0.5s ease;
+    text-align: center;
+    margin-left: 3%;
+    margin-right: 1%;
+    margin-top: 5%;
+    width: 300px;
+    display: inline-grid;
+}
+
+.card-image1{
+    grid-area: image;
+    background: url('https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_1:1/k%2FPhoto%2FRecipes%2F2020-07-How-to-make-affogato-at-home%2FKitchn_HowTo_Affogato_0281');
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+    height: 130%;
+}
+
+.card-image2{
+    grid-area: 'image';
+    background: url('https://thumbs.dreamstime.com/b/hot-americano-coffee-bubbles-clear-glass-wooden-table-hot-americano-coffee-bubbles-clear-glass-170349943.jpg');
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+    height: 130%;
+}
+
+.card-image3{
+    grid-area: image;
+    background: url('https://perfectdailygrind.com/wp-content/uploads/2015/06/pouring-milk-latte-art.jpg');
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+    height: 130%;
+}
+
+.card-image4{
+    grid-area: image;
+    background: url('https://coffeeaffection.com/wp-content/uploads/2021/02/does-a-cappuccino-have-caffeine.jpg');
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+    height: 130%;
+}
+
+.card-image5{
+    grid-area: image;
+    background: url('https://cdn.shopify.com/s/files/1/0542/1344/3783/files/espresso-served-in-a-cup.jpg?v=1642581646');
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+    height: 130%;
+}
+
+.card-image6{
+    grid-area: image;
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUoj_tpgpZw7gWlSKGnNUPgfwbwD3COjAFZA&usqp=CAU');
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+    height: 130%;
+}
+
+.card-image7{
+    grid-area: image;
+    background: url('https://nationaltoday.com/wp-content/uploads/2020/10/Frappe.jpg');
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+    height: 130%;
+}
+
+.card-image8{
+    grid-area: image;
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQe6eHWPSwM42I935HUC4qGpzZlV4RsYv1_lqNLa_n_gm0_Dz3dgFpovyqThugN1os-mVw&usqp=CAU');
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+    height: 130%;
+}
+
+.card-text{
+    grid-area: text;
+    margin: 75px;
+}
+
+.card-text .date{
+    color: rgba(255,7,110);
+    font-size: 13px;
+}
+
+.card-text p{
+    color: grey;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.card-text h2{
+    margin-top: 0px;
+    font-size: 28px;
+}
+
+.card-stats{
+    grid-area: stats;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background: rgb(255,7,110);
+}
+
+.card-stats .stat{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    color: white;
+}
+
+.card-stats .type{
+    font-size: 11px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.card-stats .value{
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.card-stats .border{
+    border-left: 1px solid rgb(172,26,87);
+    border-right: 1px solid rgb(1772,26,87);
+}
+
+.card-stats .value sup{
+    font-size: 12px;
+}
+
+.card1:hover{
+    transform: scale(1.2);
+    box-shadow: 5px 5px 15px rgb(0,0,0,0.6);
+}
+
+.quote img{
+    width: 100%;
+    height: 80vh;
+    opacity: 0.9;
+    padding-top: 4%;
+    margin-left: 0%;
+    background-attachment: fixed;
+}
+
+.cardss{
+    width: 20%;
+    display: inline-block;
+    box-shadow: 2px 2px 20px black;
+    border-radius: 5px; 
+    margin: 2%;
+    margin-left: 2.5%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    transition: 0.5s ease;
+    background-color: rgb(255, 239, 220);
+    border: 2px solid black;
+}
+
+.cardss:hover{
+    transform: scale(1.2);
+    box-shadow: 5px 5px 15px rgb(0,0,0,0.6);
+}
+
+.cardss h1{
+    text-align: center;
+    padding-top: 5%;
+}
+
+/* .image img{
+    width: 100px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    height: 300px;
+} */
+
+.title{
+
+ text-align: center;
+ padding: 10px;
+ 
+}
+
+.cards h1{
+ font-size: 20px;
+}
+
+.cards .des{
+ padding: 3px;
+ text-align: center;
+ padding-top: 10px;
+ border-bottom-right-radius: 5px;
+ border-bottom-left-radius: 5px;
+}
+
+.des button{
+ margin-top: 20px;
+ margin-bottom: 20px;
+ background-color: black;
+ border: 1px solid white;
+ border-radius: 5px;
+ padding:10px;
+ color: #fff;
+}
+
+button:hover{
+ background-color: white;
+ color: black;
+ transition: .5s;
+ cursor: pointer;
+}
+
+footer{
+    position: relative;
+    width: 100%;
+    background: rgb(155, 97, 97);
+    height: 40%;
+    margin-top: 2%;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer .social-icon, footer .menu{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+}
+
+footer .social-icon li, footer .menu li{
+    list-style: none;
+}
+
+footer .social-icon li a{
+    font-size: 2em;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+}
+
+footer .social-icon li a:hover{
+    transform: translateY(-10px);
+}
+
+footer .menu li a{
+    font-size: 1.2em;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    text-decoration: none;
+    opacity: 0.75;
+}
+
+footer .menu li a:hover{
+    opacity: 1;
+}
+
+footer p{
+    color: #fff;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}

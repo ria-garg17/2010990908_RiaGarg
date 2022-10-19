@@ -22,7 +22,7 @@ export const Contact = () => {
     `;
   return (
     <Wrapper className='section'>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.401715917227!2d77.3706607150366!3d28.64768808241183!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfb14c22d954d%3A0xbb70b05af94bbf72!2sMyWorld%20Pre%20School%20And%20Daycare%20Creche%20Centre!5e0!3m2!1sen!2sin!4v1664775326713!5m2!1sen!2sin" 
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d54914.87384051405!2d76.66125175820312!3d30.657070299999987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390febe3291b0d27%3A0xd170d5727384fb5e!2sCaf%C3%A9%20Coffee%20Day!5e0!3m2!1sen!2sin!4v1665914390592!5m2!1sen!2sin" 
         width="60%" 
         height="642" 
         style={{border:0}}

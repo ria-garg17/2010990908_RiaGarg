@@ -1,4 +1,4 @@
-#exampleFormControlInput1::placeholder{
+/* #exampleFormControlInput1::placeholder{
     color: white;
 }
 
@@ -16,4 +16,33 @@
 
 #search-bar::placeholder{
     color: white;
+} */
+
+.box {
+    border: 2px solid black;
+    height: 500px;
+    /* position: absolute; */
+}
+
+.mb-31 input{
+   
+    padding: 12px;
+    width: 45%;
+    margin-left: 40%;
+    /* z-index: 1; */
+    margin-top: -27%;
+}
+
+.mb-31 button {
+    margin-left: -52%;
+    margin-top: 20px;
+    width: 20%;
+}
+
+.image img{
+    margin-top: -0.2%;
+    height: 500px;
+    width: 1300px;
+    position: relative;
+    /* margin-left: 45%; */
 }

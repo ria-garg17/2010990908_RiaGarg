@@ -22,13 +22,13 @@ export const User = () => {
       <Link className="btn btn-primary" to="/form">
         Back to Form
       </Link>
-      <h1 className="display-4">User Id: {id}</h1>
+      <h1 className="display-4">Seat Number: {id}</h1>
       <hr />
       <ul className="list-group w-50">
         <li className="list-group-item" style={{textAlign: 'left'}}><b>Name:</b> {user.name}</li>
-        <li className="list-group-item" style={{textAlign: 'left'}}><b>Email:</b> {user.email}</li>
-        <li className="list-group-item" style={{textAlign: 'left'}}><b>Phone:</b> {user.mobile}</li>
-        <li className="list-group-item" style={{textAlign: 'left'}}><b>Password:</b> {user.password}</li>
+        <li className="list-group-item" style={{textAlign: 'left'}}><b>Arrival Time:</b> {user.arrival}</li>
+        <li className="list-group-item" style={{textAlign: 'left'}}><b>Departure Time:</b> {user.departure}</li>
+        <li className="list-group-item" style={{textAlign: 'left'}}><b>Total Bill:</b> {user.bill}</li>
       </ul>
     </div>
   );

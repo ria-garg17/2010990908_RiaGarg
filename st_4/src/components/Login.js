@@ -9,11 +9,11 @@ import './Login.css';
 export const Login = () => {
   return (
     <div className='loginImage'>
-      <img id='background' src='https://images.ctfassets.net/3s5io6mnxfqz/5925yJyZW7Acg3oKrKzMMu/f09be95d1b827ad2c3518ccb6504440f/positions-in-a-company.jpeg'/>
+      <img id='background' src='https://media.istockphoto.com/photos/empty-coffee-shop-picture-id1154756901?k=20&m=1154756901&s=612x612&w=0&h=yN7rVoqn2TAxf61zykcIaNpdxqozdbXjgYcMb4s9Rgc='/>
 
       <div className="outer1">
         <div className="sideImage">
-          <img id='sideImage' src='https://images.ctfassets.net/3s5io6mnxfqz/5925yJyZW7Acg3oKrKzMMu/f09be95d1b827ad2c3518ccb6504440f/positions-in-a-company.jpeg'/>
+          <img id='sideImage' src='https://media.istockphoto.com/photos/empty-coffee-shop-picture-id1154756901?k=20&m=1154756901&s=612x612&w=0&h=yN7rVoqn2TAxf61zykcIaNpdxqozdbXjgYcMb4s9Rgc='/>
         </div>
         <div className="login">
         <div className="container1">

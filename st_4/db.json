@@ -2,16 +2,16 @@
   "posts": [
     {
       "name": "Ria Garg",
-      "email": "ria.garg.177@gmail.com",
-      "mobile": "8979988943",
-      "password": "heythere",
+      "arrival": "10:00 a.m",
+      "departure": "10:30 a.m",
+      "bill": "200",
       "id": 1
     },
     {
       "name": "Sparsh Garg",
-      "email": "sparsh172@gmail.com",
-      "mobile": "9719144260",
-      "password": "heyy",
+      "arrival": "4:00 p.m",
+      "departure": "6:00 p.m",
+      "bill": "400",
       "id": 2
     }
   ],
