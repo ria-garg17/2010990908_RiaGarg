@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/cafe_management/precache-manifest.7782b4b847dfecee697989aceac06ac7.js"
+  "/2010990908_RiaGarg/st_4/precache-manifest.f7a49c3566b10225a97b82f525cb8bab.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/cafe_management/index.html", {
+workbox.routing.registerNavigationRoute("/2010990908_RiaGarg/st_4/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
