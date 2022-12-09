@@ -28,7 +28,7 @@ self.__precacheManifest = [
     "url": "/2010990908_RiaGarg/st_4/static/media/logo2.6edda448.png"
   },
   {
-    "revision": "4ce82a7b89553a716c64999ed9ffc0df",
+    "revision": "83aa09aac49c77daddcdaecb8e1f2aa1",
     "url": "/2010990908_RiaGarg/st_4/index.html"
   }
 ];
