@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/2010990908_RiaGarg/st_4/precache-manifest.0a57d31efe9cbc4680a13a4515364ab5.js"
+  "/st_4/precache-manifest.aa06c2246357bb42933c863ea42f3da0.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/2010990908_RiaGarg/st_4/index.html", {
+workbox.routing.registerNavigationRoute("/st_4/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
